@@ -1,6 +1,9 @@
 import {Menu} from '../../constants/Menu.js'
 import Icons from '../Icons'
-const NavigationBar = () => {
+const NavigationBar = ({
+	cartCounter,
+	setCartCounter,
+}) => {
 	return (
 		<nav className="navbar">
 			<ul className="navbar-nav d-flex flex-row justify-content-end border-bottom w-100">
