@@ -6,7 +6,7 @@ const Icons = ({size,icon}) => {
 		{
 			icon === 'Home' 
 			? <HomeIcon size={size}/>
-			: icon === 'Categories' 
+			: icon === 'Products' 
 			? <CategoriesIcon size={size}/>
 			: <ShoppingCartIcon size={size}/>
 		}
