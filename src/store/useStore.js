@@ -2,8 +2,6 @@ import create from 'zustand'
 
 export const useStore = create(set => ({
     productList: [],
-    itemId:undefined,
-    data:[],
     setData:(data) => set(() => ({data:data})),
     setItemId: (id) => set(() => ({itemId:id})),
     addProduct: (product) => addProductList(set,product),

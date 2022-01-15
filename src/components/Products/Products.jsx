@@ -28,7 +28,7 @@ const Products = ({
 							<div className="card-footer d-flex justify-content-between align-items-center">
 								<span className="text-success">{`$${product.price}`}</span>
 								<div>
-									<Link onClick={() => setItemId(product.id)} to={`/products:${product.id}`} className="btn btn-primary">Go to product</Link>
+									<Link to={`/products/:${product.id}`} className="btn btn-primary">Go to product</Link>
 									<button onClick={() => addProduct(product)}
 										className="btn btn-success ms-2">
 										+{<Icons size={1.2} icon={'ShoppingCart'} />}</button>
