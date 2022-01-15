@@ -2,11 +2,16 @@
 export const Menu = [
 	{
 		name:'Home',
+		path:'/',
 	},
 	{
-		name: 'Categories',
+		name: 'Products',
+		path:'/products',
 	},
 	{
-		name:'Shopping Cart'
+		name:'Shopping Cart',
+		path:'/shoppingcart',
 	},
 ]
+
+
