@@ -1,4 +1,5 @@
 import { useStore } from "../../store/useStore"
+
 const ShoppingCart = () => {
     const {productList,addProduct,removeProduct} = useStore()
     
