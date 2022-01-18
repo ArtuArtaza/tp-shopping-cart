@@ -6,6 +6,7 @@ export const useStore = create(set => ({
     setItemId: (id) => set(() => ({itemId:id})),
     addProduct: (product) => addProductList(set,product),
     removeProduct: (product) => removeProduct(set,product),
+    setProductList: (productList) => set(() => ({productList:productList})),
 })) 
 
 

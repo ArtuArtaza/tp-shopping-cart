@@ -14,6 +14,7 @@ const ProductsReady = ({ data, isLoading }) =>
 function App() {
   const url = "https://fakestoreapi.com/products";
   const { data, isLoading } = useFetch(url);
+
   return (
     <div className="App vh-100">
       <NavigationBar />
